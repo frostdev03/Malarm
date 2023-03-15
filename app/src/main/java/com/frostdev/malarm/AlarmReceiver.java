@@ -15,7 +15,7 @@ public class AlarmReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         // Create notification
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, "alarm")
-                .setSmallIcon(R.drawable.ic_alarm)
+                .setSmallIcon(R.drawable.ic_baseline_access_alarm_24)
                 .setContentTitle("Alarm")
                 .setContentText("Wake up!")
                 .setPriority(NotificationCompat.PRIORITY_HIGH);

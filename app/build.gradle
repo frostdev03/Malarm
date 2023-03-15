@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace 'com.frostdev.malarm'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.frostdev.malarm"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
